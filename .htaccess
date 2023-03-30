@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FIENAME}% !-d
+RewriteCond %{REQUEST_FIENAME}% !-REQUEST_FIENAME
+RewriteRule ^ index.php [L]
